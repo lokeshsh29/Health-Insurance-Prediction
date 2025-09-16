@@ -21,12 +21,12 @@ def predict_datapoint():
         return render_template('home.html')
     else:
         data=CustomData(
-            sex=request.form.get("Sex"),
-            age=request.form.get("Age"),
-            bmi=request.form.get("BMI"),
-            children=request.form.get("Children"),
-            region=request.form.get("Region"),
-            smoker=request.form.get("Smoker")
+            sex=request.form.get("sex"),
+            age=request.form.get("age"),
+            bmi=request.form.get("bmi"),
+            children=request.form.get("children"),
+            region=request.form.get("region"),
+            smoker=request.form.get("smoker")
         )
         pred_df=data.get_data_as_data_frame()
         print(pred_df)
