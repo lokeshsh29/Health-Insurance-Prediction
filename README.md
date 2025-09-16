@@ -24,8 +24,9 @@ A multivariate analysis is provided below:
 8. CatBoosting Regressor
 9. AdaBoost Regressor
 
-Now, lets talk about the deployment. The app is deployed using Flask on the local server. - app.py
-Install python and run the code - 
-python app.py
-Open browser with http://127.0.0.1:5000/
-Voila, your app is ready
+Now, lets talk about the deployment.  
+The app is deployed using Flask on the local server. - app.py  
+Install python and run the code  
+python app.py  
+Open browser with http://127.0.0.1:5000/  
+Voila, your app is ready  
