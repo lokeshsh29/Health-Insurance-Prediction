@@ -50,4 +50,4 @@ if submitted:
     X = preprocessor.transform(input_df)
     # Predict
     prediction = model.predict(X)
-    st.success(f"Your predicted medical charges: ₹{prediction[0]:,.2f}")
+    st.success(f"Your predicted medical charges: ${prediction[0]:,.2f}")
