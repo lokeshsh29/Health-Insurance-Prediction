@@ -30,7 +30,7 @@ with st.form("prediction_form"):
     sex = st.selectbox("Sex", ["male", "female"])
     bmi = st.number_input("BMI", min_value=0.0, max_value=100.0, value=25.0)
     children = st.number_input("Children", min_value=0, max_value=6, value=0)
-    region = st.selectbox("Region", ["southwest", "southeast", "northeast", "northwest"])
+    region = st.selectbox("US Region", ["southwest", "southeast", "northeast", "northwest"])
     smoker = st.selectbox("Smoker", ["yes", "no"])
     submitted = st.form_submit_button("Predict my medical charges")
 
